@@ -1,0 +1,25 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshdesk": {
+      "events": {
+        "onTicketCreate": {
+          "handler": "onTicketCreateHandler"
+        },
+        "onTopicCreate": {
+          "handler": "onTopicCreateCallback"
+        },
+        "onForumUpdate": {
+          "handler": "onForumUpdateCallback"
+        },
+        "onForumCategoryUpdate": {
+          "handler": "onForumCategoryUpdateCallback"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "18.14.2",
+    "fdk": "9.0.0"
+  }
+}
