@@ -14,6 +14,9 @@
         },
         "onForumCategoryUpdate": {
           "handler": "onForumCategoryUpdateCallback"
+        },
+        "onContactCreate": {
+          "handler": "onContactCreateCallback"
         }
       }
     }

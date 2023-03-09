@@ -11,4 +11,7 @@ exports = {
   onForumCategoryUpdateCallback: function (payload) {
     console.log(payload.data.forum_category.id);
   },
+  onContactCreateCallback: function (payload) {
+    console.log(payload.data.contact.id);
+  },
 };
